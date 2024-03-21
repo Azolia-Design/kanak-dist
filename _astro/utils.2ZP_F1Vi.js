@@ -1,0 +1,1 @@
+const o=(t,l=!0)=>{let e=document.querySelectorAll(t);return e.length===1&&l?e[0]:e},n=t=>{let l=t.getBoundingClientRect(),e=document.documentElement;return{top:l.top+window.scrollY-e.clientTop,left:l.left+window.scrollX-e.clientLeft}},r=t=>t/10*parseFloat(window.getComputedStyle(o("html")).getPropertyValue("font-size"));export{o as d,n as o,r as p};

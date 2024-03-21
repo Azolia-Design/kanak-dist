@@ -1,0 +1,1 @@
+function o(t){let e=new Date(t),r=["January","February","March","April","May","June","July","August","September","October","November","December"][e.getMonth()],a=e.getDate(),n=e.getFullYear();return r+" "+a+", "+n}export{o as c};
